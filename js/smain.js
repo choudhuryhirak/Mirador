@@ -87,6 +87,81 @@ $(document).ready(function(){
     
     
     
+    //menu--nav--overlay
+    
+    
+    
+    
+    var menuscroller = new ScrollMagic.Controller();
+    var menutl = new TimelineMax();
+    
+    
+    
+    menutl
+    
+    .to("i.fas.fa-bars", 0.2,{css:{color: "#000"}, ease:Power1.easeOut}, 0.1)
+    .to("i.fas.fa-bars", 0.2,{css:{color: "#fff"}, ease:Power1.easeOut}, 0.1)
+    ;
+    
+    
+    
+    
+    
+    var menutlScene = new ScrollMagic.Scene({
+        
+        triggerElement: '#cover-overlay'
+    
+    })
+    .addIndicators({
+        name: 'fade scene1',
+        colorTrigger: 'gold',
+        colorStart: 'green',
+        colorEnd: 'pink'
+    
+    
+    
+    
+    })
+    .setTween(menutl)
+    .addTo(menuscroller);
+    
+    
+    
+    //2mno
+    
+    
+    var menuscroller2 = new ScrollMagic.Controller();
+    var menutl2 = new TimelineMax();
+    
+    menutl2
+    
+    .to("i.fas.fa-bars", 0.2,{css:{color: "#fff"}, ease:Power1.easeOut}, 0.1)   
+    .to("i.fas.fa-bars", 0.2,{css:{color: "#000"}, ease:Power1.easeOut}, 0.2)
+    ;
+    
+    
+    var menutlScene2 = new ScrollMagic.Scene({
+        
+        triggerElement: '#blockcc'
+        
+        
+        
+        
+    })
+    .addIndicators({
+        name: 'fade scene2',
+        colorTrigger: 'black',
+        colorStart: 'orange',
+        colorEnd: 'indigo'
+    
+    
+    
+    
+    })
+    .setTween(menutl2)
+    .addTo(menuscroller2);
+    
+    
     
     
 
