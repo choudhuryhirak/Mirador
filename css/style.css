@@ -314,15 +314,33 @@ body {
 
 #mdm21
 {
-    background-image: url(../exports/livingnature.png)
+    background-image: url(../exports/livingnature.png);
+    width: 700px;
+    height: 100%;
+    background-position: bottom;
+    background-size: auto;
+    background-repeat: no-repeat;
         
     
 }
 
+
 #mdm22
 {
-    
+    background-image: url(../exports/imperfect.png);
+    width: 700px;
+    height: 100%;
+    background-position: left;
+    background-size: auto;
+    background-repeat: no-repeat;
+     
 }
+
+
+
+
+
+
 
 
 
@@ -476,97 +494,6 @@ body {
     padding-top: 5%;
     padding-bottom: 5%;
 }
-
-
-/*
-#themeshome1
-{
-    height: 100vh;
-    position: relative;
-    padding-right: 2%;
-    padding-top: 10%;
-    padding-bottom: 20%;
-    padding-left: 40%;
-    overflow: hidden;
-    //background: grey
-}
-
-
-#themeshome2
-{
-    height: 100vh;
-    position: relative;
-    padding-right: 2%;
-    padding-top: 10%;
-    padding-bottom: 20%;
-    padding-left: 40%;
-    overflow: hidden;
-    background: grey;
-    
-}
-
-
-#themeshome3
-{
-    height: 600px;
-    width: 450px;
-    position: relative;
-    margin-right: 150%;
-    padding-top: 20%;
-    padding-bottom: 20%;
-    padding-left: 10%;
-    overflow: hidden;
-    background: grey;
-}
-
-
-
-
-.overfixedth1
-{   
-    height: 580px;
-    width: 580px;
-    background-color: white;
-    background-image:url(../exports/theme1.png);
-    background-repeat: no-repeat;
-    background-position:left top;
-    background-attachment: fixed;
-    
-    
-}
-
-.overfixedth2
-{   
-    height: 580px;
-    width: 580px;
-    background-color: white;
-    background-image:url(../exports/theme2.png);
-    background-repeat: no-repeat;
-    background-position:center top;
-    background-attachment: fixed;
-   
-    
-}
-
-.overfixedth3
-{   
-    height: inherit;
-    width: inherit;
-    background-image:url(../exports/theme3.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: right 70px top;
-    
-    
-    
-}
-*/
-
-
-
-
-
-
 
 
 #themeheader2
@@ -782,42 +709,53 @@ body {
 {
     text-align: center;
     font-family: Playfair Display, serif;
-    font-size: 38px;
+    font-size: 18px;
     text-transform: uppercase;
-    
-    
-    font-weight: 700;
-    letter-spacing: 16px;
+    font-kerning: normal
+    font-weight: 200;
+    letter-spacing: 10px;
     
     
 }
 
 #journey
 {
-    padding: 10% 0 30% 0;
+    padding: 10% 0 15% 0;
     
     
 }
-
 
 #journeyimg
 {
     background-image: url(../exports/jimage.png);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: contain;
     background-position: bottom;
-    height: 400px;
+    height: 600px;
+    width: 100%;
     position: relative;
     
 }
 
+#jbody
+{
+    padding: 10% 0 10% 0;
+}
+
+
+
+
+
+
 .journeytitle
 {
+    
     
     position: absolute;
     z-index: 0;
     margin: auto;
-    bottom: 0;
+    bottom: -12%;
     left: 0;
     right: 0;
     
@@ -828,12 +766,33 @@ body {
 {
     color: white;
     font-family: Playfair Display, serif;
-    font-size: 100px;
-    text-transform: capitalize;
+    font-size: 150px;
+    text-transform: uppercase;
     font-weight: 800;
     text-align: center;
 }
 
+
+#jbody
+{
+    font-size: 20px;
+    text-align: justify;
+    justify-content: flex-end;
+}
+
+#doorimg
+{
+    margin: 10% 0 10% 0;
+    background-image: url(../exports/pdoor.png);
+    width: auto;
+    height: 100%;
+    background-position: bottom;
+    background-size: auto;
+    background-repeat: no-repeat;
+    
+    
+    
+}
 
 
 
