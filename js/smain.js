@@ -69,14 +69,15 @@ $(document).ready(function(){
     
     jrnytimeline
     
+    
     .from(".journeytitle > p", 1, {css:{color: "#000"}, ease:Power1.easeOut},0.2)
     .reverse();
     ;
     
     var jrnyscene = new ScrollMagic.Scene({
         
-        triggerElement: '#doorimg',
-        triggerHook: 0.5
+        triggerElement: '#doorimg'
+        
         
         
         

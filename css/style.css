@@ -738,6 +738,8 @@ body {
     
 }
 
+
+
 #jbody
 {
     padding: 10% 0 10% 0;
@@ -755,7 +757,7 @@ body {
     position: absolute;
     z-index: 0;
     margin: auto;
-    bottom: -12%;
+    bottom: -8%;
     left: 0;
     right: 0;
     
