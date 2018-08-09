@@ -112,16 +112,6 @@ $(document).ready(function(){
         triggerElement: '#cover-overlay'
     
     })
-    .addIndicators({
-        name: 'fade scene1',
-        colorTrigger: 'gold',
-        colorStart: 'green',
-        colorEnd: 'pink'
-    
-    
-    
-    
-    })
     .setTween(menutl)
     .addTo(menuscroller);
     
@@ -147,16 +137,6 @@ $(document).ready(function(){
         
         
         
-    })
-    .addIndicators({
-        name: 'fade scene2',
-        colorTrigger: 'black',
-        colorStart: 'orange',
-        colorEnd: 'indigo'
-    
-    
-    
-    
     })
     .setTween(menutl2)
     .addTo(menuscroller2);
