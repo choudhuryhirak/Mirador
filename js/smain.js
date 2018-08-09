@@ -62,6 +62,44 @@ $(document).ready(function(){
     )
     
     
+    //about-page
+    
+    
+    
+    
+    
+    var jrnycontroller2 = new ScrollMagic.Controller();
+    
+    
+    var jrnytimeline2 = new TimelineMax();
+    
+    jrnytimeline2
+    
+    
+    .from(".journeytitle > p", 1, {css:{color: "#fff"}, ease:Power1.easeOut},0.2)
+    .reverse();
+    ;
+    
+    var jrnyscene2 = new ScrollMagic.Scene({
+        
+        triggerElement: '#journey'
+        
+        
+        
+        
+    })
+    .setTween(jrnytimeline2)
+    .addTo(jrnycontroller2);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     var jrnycontroller = new ScrollMagic.Controller();
     
     
