@@ -869,7 +869,46 @@ body {
 }
 
 
+#collection-bc > ol
+{
+background-color: white;
+}
 
+
+#collection-grid
+{
+/*    background-color: grey;*/
+}
+
+#collections-drop
+{
+    background-color: white;
+    
+    
+}
+
+#collection-item
+{
+    padding: 10% 0 10% 0;
+}
+
+
+#collection-item > p
+{
+    
+    font-family: Playfair Display, serif;
+    font-size: 72px;
+    text-align: center;
+    font-weight: 700;
+    
+    
+}
+
+#collectionchildcopy
+{
+    font-size: 20px;
+    text-align: justify;
+}
 
 
 
