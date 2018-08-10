@@ -910,6 +910,16 @@ background-color: white;
     text-align: justify;
 }
 
+.dropdown-item.active, .dropdown-item:active
+{
+    background-color: #000;
+}
+
+.img-container
+{
+    width: 430px;
+}
+
 
 
 @media screen and (max-height: 450px) {
