@@ -207,17 +207,21 @@ $(document).ready(function(){
 //    card-commit zoom
     
     
-//    var cardzoom;
-//    $('.category-card').click(
-//    
-//    
-//    function()
-//        {
-//            cardzoom = new TimelineMax();
-//            cardzoom.to($(this).find('.card'), 0.6, {css:{position: "absolute", margin: "auto", zindex: "40", top: "0", bottom:"0", right:"0", left:"0"}, scaleX:1.50, scaleY:1.50, ease:Power1.easeInOut}, 0.3)
-//        }
-//    
-//    )
+    var cardzoom;
+    $('.category-card').hover(
+    
+    
+    function()
+        {
+            cardzoom = new TimelineMax();
+            cardzoom.to($(this).find('.card'), 0.6, {scaleX:1.1, scaleY:1.1, ease:Power1.easeInOut}, 0.3)
+        },
+        function()
+        {
+            cardzoom.reverse();
+        }
+    
+    )
     
     
     
