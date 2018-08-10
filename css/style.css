@@ -315,10 +315,10 @@ html, body {
 #mdm21
 {
     background-image: url(../exports/livingnature.png);
-    width: 700px;
+    
     height: 100%;
     background-position: bottom;
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
         
     
@@ -328,10 +328,10 @@ html, body {
 #mdm22
 {
     background-image: url(../exports/imperfect.png);
-    width: 700px;
+    
     height: 100%;
     background-position: left;
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
      
 }
