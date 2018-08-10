@@ -775,7 +775,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: contain;
-    background-position: bottom;
+    background-position:center bottom 20px;
     height: 600px;
     width: 100%;
     position: relative;
@@ -915,10 +915,17 @@ background-color: white;
     background-color: #000;
 }
 
-.img-container
+
+.category-card
 {
-    width: 430px;
+    padding: 5%;
 }
+
+#pagcontainer 
+{
+    padding: 10% 0 10% 0;
+}
+
 
 
 

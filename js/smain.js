@@ -179,6 +179,48 @@ $(document).ready(function(){
     .setTween(menutl2)
     .addTo(menuscroller2);
     
+  
+    
+    
+//     var tlanim;
+//    $('.owl-container').hover(
+//    
+//    function()
+//        {
+//            tlanim = new TimelineMax();
+//            tlanim.to($(this).find('.transitionbox'), 0.3, {scaleX:1.50, scaleY:1.50, autoAlpha:0.9, ease:Power1.easeIn}, 0.3)
+//            .to($(this).find('.carotitle'), 1, {autoAlpha:1, x:"0", y:"60%", ease:Power1.easeInOut},0.4);
+//            
+//            
+//        },
+//        function()
+//        {
+//            tlanim.reverse();
+//        }
+//    
+//    
+//    
+//    )
+    
+    
+    
+//    card-commit zoom
+    
+    
+//    var cardzoom;
+//    $('.category-card').click(
+//    
+//    
+//    function()
+//        {
+//            cardzoom = new TimelineMax();
+//            cardzoom.to($(this).find('.card'), 0.6, {css:{position: "absolute", margin: "auto", zindex: "40", top: "0", bottom:"0", right:"0", left:"0"}, scaleX:1.50, scaleY:1.50, ease:Power1.easeInOut}, 0.3)
+//        }
+//    
+//    )
+    
+    
+    
     
     
     
