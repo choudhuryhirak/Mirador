@@ -214,7 +214,7 @@ $(document).ready(function(){
     function()
         {
             cardzoom = new TimelineMax();
-            cardzoom.to($(this).find('.card'), 0.6, {scaleX:1.1, scaleY:1.1, ease:Power1.easeInOut}, 0.3)
+            cardzoom.to($(this).find('.card'), 1.6, {scaleX:1.1, scaleY:1.1, ease:Power1.easeInOut}, 0.3)
         },
         function()
         {
@@ -222,6 +222,9 @@ $(document).ready(function(){
         }
     
     )
+    
+    
+   
     
     
     

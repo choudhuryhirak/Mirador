@@ -35,35 +35,124 @@
 <script>    
     
   $(document).ready(function(){
-  $('.owl-carousel').owlCarousel({
-      items:3,
-      loop:true,
-      autoplay:true,
-      autoplayTimeout:3000,
-      autoplayHoverPause:true,
-      responsive:{
-          0:{
-              items:1,
-              nav:false
-          },
-          500:{
-              items:2,
-              nav:false
-          },
-          768:{
-              items:3,
-              nav:false
-          },
+      
+      
+      
+      $('.owl-father').owlCarousel({
+          items:3,
+          loop:true,
+          nav:false,
+          dots: false,
+          autoplay:true,
+          autoplayTimeout:3000,
+          autoplayHoverPause:true,
+          responsive:{
+              0:{
+                  items:1,
+                  nav:false
+              },
+              500:{
+                  items:2,
+                  nav:false
+              },
+              768:{
+                  items:3,
+                  nav:false
+              },
 
-          992:{
-              items:3,
-              nav:false,
+              992:{
+                  items:3,
+                  nav:false,
+              }
           }
-      }
-  })
+      })
+
+
+
+    $('.owl-uncle1').owlCarousel({
+        items:1,
+          loop:true,
+          nav:false,
+          dots: false,
+          autoplay:true,
+          autoplayTimeout:3000,
+          autoplayHoverPause:true,
+        responsive: {
+            0:{
+                  items:1,
+                  nav:false
+              },
+              500:{
+                  items:1,
+                  nav:false
+              },
+              768:{
+                  items:1,
+                  nav:false
+              },
+
+              992:{
+                  items:1,
+                  nav:false,
+              }
+
+
+            }
+
+
+
+
+    })      
+      
+      
+      
+      
+      
+      
+    
+    $('.owl-uncle2').owlCarousel({
+        items:1,
+          loop:true,
+          nav:false,
+          dots: false,
+          autoplay:true,
+          autoplayTimeout:3000,
+          autoplayHoverPause:true,
+        responsive: {
+            0:{
+                  items:1,
+                  nav:false
+              },
+              500:{
+                  items:1,
+                  nav:false
+              },
+              768:{
+                  items:1,
+                  nav:false
+              },
+
+              992:{
+                  items:1,
+                  nav:false,
+              }
+
+
+            }
+
+
+
+
+    })      
+      
+       
+      
+      
+      
+      
+      
 });
-    
-    
+
 </script>
 
     <title>MiradorLife</title>
@@ -432,7 +521,7 @@
     
     
     <div class="container" id="owl-father">
-        <div class="owl-carousel">
+        <div class="owl-father owl-carousel owl-theme">
            <div class="owl-container">
              <a href="#" target="_blank" id="outcollec">
               <div class="caro-img">
@@ -513,30 +602,111 @@
     <div class="container">
         
         <p id="tagline2" style="text-align: center;">
-           CUSTOMERS SPEAK
+           Customers Speak
         </p>
-        <p id="subtitle" style="text-align: center;">@Mirador</p>
         
     </div>
     
-    <div class="container">
-        <div class="row">
-            <div class="col-5">
-                div.
-                
-            </div>
-            <div class="col-7">
-                
-                
-            </div>
-            
+    
+    
+    
+    
+     <div class="container">
+      
+       
+       
+        <div class="owl-uncle1 owl-carousel owl-theme">
+           <div class="owl-container">
+             
+             <div class="row">
+                 <div class="col-md-7 col-12">
+                     <img src="exports/caro-img.png" alt="" class="img-flex">
+                 </div>
+                 <div class="col-md-5 col-12">
+                     <div class="testimonials-copy">
+                         <p>
+                             “I love what Mirador has helped me do with my home. Its unique, its different, but above all, its all ME!”
+                             
+                         </p>
+                         <div class="author">
+                                 <img src="exports/caro-author.png" alt="" class="img-flex hidden-sm" style="max-width: 150px;">
+                                 <span>
+                                     author spaces we are proud of @mirador
+                                     
+                                 </span>
+                                 
+                         </div>
+                         
+                         
+                     </div>
+                     
+                     
+                 </div>
+                 
+                 
+             </div>
+             
+
+               
+           </div>
+           
+           
+           
             
         </div>
         
         
+        <div class="owl-uncle2 owl-carousel owl-theme">
+           <div class="owl-container">
+             
+             <div class="row">
+                 <div class="col-md-7 col-12">
+                     <img src="exports/caro-img.png" alt="" class="img-flex">
+                 </div>
+                 <div class="col-md-5 col-12">
+                     <div class="testimonials-copy">
+                         <p>
+                             “I love what Mirador has helped me do with my home. Its unique, its different, but above all, its all ME!”
+                             
+                         </p>
+                         <div class="author">
+                                 <img src="exports/caro-author.png" alt="" class="img-flex hiddem-sm" style="width: 150px;">
+                                 <span>
+                                     author they made us a home@mirador
+                                     
+                                 </span>
+                                 
+                         </div>
+                         
+                         
+                     </div>
+                     
+                     
+                 </div>
+                 
+                 
+             </div>
+             
+
+               
+           </div>
+           
+           
+           
+            
+        </div>
         
         
     </div>
+    
+    
+     <div class="container" style="padding-top: 7%; padding-bottom: 5%; text-align: center;">
+       
+       <a href="#" class="btn btn-outline-dark" id="theme-button-1" style="width: 240px;">VIEW ALL TESTIMONIALS&nbsp;&nbsp;&nbsp;&nbsp;  →</a>
+       
+       
+   </div> 
+    
  
     
 </section>        
