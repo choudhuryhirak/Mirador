@@ -530,6 +530,26 @@ html, body {
    
 }
 
+#themeshome1 > img
+{
+    max-width: 360px;
+
+}
+
+#themeshome2 > img
+{
+    max-width: 360px;
+    
+}
+
+#themeshome_t > img
+{
+    max-width: 250px;
+    min-width: 60px;
+    padding-bottom: 5%;
+}
+
+
 
 
 .overfixed
@@ -1032,9 +1052,56 @@ background-color: white;
     
 }
 
+#testimonial-panel > .row
+{
+    padding: 2% 0 2% 0;
+}
+
+
+#testimonial-nav-container > ul
+{
+    padding: 2%
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active
+{
+    font-family: Playfair Display, serif;
+    font-weight: 700;
+ border: 1px solid black;
+color: black;
+    
+}
+
+#arrowpill
+{
+    position: absolute;
+    right: 20px;
+    margin: auto;
+}
+
+#arrowpill2
+{
+    position: absolute;
+    left: 20px;
+    margin: auto;
+}
+
 
 @media screen and (max-width: 450px)
 {
+    
+    #themeparent
+    {
+        font-family: Playfair display serif;
+    font-size: 22px;
+    letter-spacing: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 25%;
+    padding-bottom: 5%;
+    }
+    
+    
     #pagcontainer 
     {
         padding: 0;
@@ -1069,6 +1136,8 @@ background-color: white;
     
     
 }
+
+
 
 
 
