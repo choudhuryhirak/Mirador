@@ -85,6 +85,21 @@ html, body {
     
 }
 
+#blog-mverlay-child
+{
+    background-image: url(../exports/blog-child-banner.png);
+    min-height: 50vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+
+
+
+
+
 #blog-mverlay
 {
     background-image: url(../exports/blogger.jpg);
@@ -176,8 +191,6 @@ color: white;
 {
     text-align: justify;
 }
-
-
 
 
 
@@ -361,6 +374,17 @@ color: white;
     
 }
 
+.blog-scrollable2
+{
+    overflow-x: scroll;
+    background-color: #fafafa;
+    padding: 2%;
+    width: inherit;
+}
+
+
+
+
 ::-webkit-scrollbar {
      width: 6px;
 }
@@ -386,10 +410,16 @@ color: white;
 
 .scrollable-item
 
-{    padding: 6% 0 0 0;
+{   padding: 6% 0 0 0;
     border-bottom: 1px dashed black;
 }
 
+
+.scrollable-post
+{
+    padding: 6% 0 0 0;
+    
+}
 
 
 .scrollable-item > p > a:hover
@@ -476,6 +506,60 @@ color: white;
 }
 
 
+#blog-child
+
+{
+    padding: 2% 0 2% 0;
+    
+}
+
+
+
+
+
+
+#blog-child-title
+{
+    
+    font-family: Playfair Display, serif;
+    font-size: 52px;
+    font-weight: 600;
+    text-align: center;
+    
+    
+    
+}
+
+#blog-child-post
+{
+    padding: 2% 0 2% 0;
+}
+
+
+
+
+
+.child-post > p
+{
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    padding: 0 4% 0 4%;
+    
+    
+}
+
+
+
+
+#verticalother
+{
+    padding: 2% 0 8% 0;
+    
+    
+}
+
+
 #highlights
 {
     font-family: Playfair Display, serif;
@@ -489,6 +573,16 @@ color: white;
     font-weight: 600;
     padding: 2% 0 2% 0;
 }
+
+#highlightchild
+{
+    font-family: Playfair Display, serif;
+    font-size: 36px;
+    font-weight: 600;
+    padding: 2% 0 2% 0;
+    
+}
+
 
 
 #highlightstitle
