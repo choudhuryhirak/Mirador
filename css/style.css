@@ -85,6 +85,61 @@ html, body {
     
 }
 
+#blog-mverlay
+{
+    background-image: url(../exports/blogger.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+}
+
+#blog-content
+{
+    position: absolute;
+    text-align: center;
+    z-index: 50;
+    top: 25%;
+    bottom: 25%;
+    left: 0;
+    right: 0;    
+    background-color: rgba(0,0,0,0.5);    
+    
+    
+}
+
+#blogtitle
+{
+    font-size: 60px;
+    font-weight: 600;
+    padding: 6% 0 2% 0;
+}
+
+#blogstitle
+{
+    font-size: 36px;
+    font-weight: 300;
+}
+
+
+#blog-content > p
+{
+font-family: Playfair Display, serif;
+text-align: center;
+color: white;
+}
+
+
+#blog-tile-one, #blog-tile-two
+{
+    padding: 2% 0 2% 0;
+}
+
+
+
+
+
 #cardo
 {
     border: 0;
@@ -277,6 +332,90 @@ html, body {
 
 }
 
+#theme-button-blog
+{    
+    border-radius: 0px !important;
+    
+}
+
+
+#theme-button-blog2
+{
+    font-size: 9px;
+    font-family: Lato, sans-serif;
+    
+}
+
+.blogtainer
+{
+    padding: 2% 0 4% 0;
+}
+
+
+.blog-scrollable
+{
+    overflow-y: scroll;
+    background-color: #fafafa;
+    padding: 2% 2% 2% 2%;
+    height: 400px;
+    
+}
+
+::-webkit-scrollbar {
+     width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.3);
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.6);
+  outline: 1px solid black;
+}
+
+
+.scrollable-item > p > a
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    
+    
+}
+
+.scrollable-item
+
+{    padding: 6% 0 0 0;
+    border-bottom: 1px dashed black;
+}
+
+
+
+.scrollable-item > p > a:hover
+{
+    
+    color: dimgrey;
+    
+    
+}
+
+.tileone
+{
+    padding: 2%
+}
+
+.card-title-tile > p
+{
+    font-family: Playfair Display, serif;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+
+
+
 #Miradormatters
 {
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -337,6 +476,36 @@ html, body {
 }
 
 
+#highlights
+{
+    font-family: Playfair Display, serif;
+    padding: 2% 0 2% 0;
+}
+
+
+#highlightmain
+{
+    font-size: 36px;
+    font-weight: 600;
+    padding: 2% 0 2% 0;
+}
+
+
+#highlightstitle
+{
+    font-size: 20px;
+    font-weight: 600;
+    
+    
+}
+
+#highlightscopy
+{
+    font-size: 16px;
+    font-family: Lato, sans-serif;
+    text-align: justify;
+    
+}
 
 
 
@@ -1084,6 +1253,11 @@ color: black;
     position: absolute;
     left: 20px;
     margin: auto;
+}
+
+.testimonials
+{
+    padding: 2% 0 2% 0;
 }
 
 

@@ -182,6 +182,29 @@ $(document).ready(function(){
   
     
     
+    //3mno
+    
+    
+    var menuscroller3 = new ScrollMagic.Controller();
+    var menutl3 = new TimelineMax();
+    
+    menutl3
+    
+    .to("i.fas.fa-bars", 0.2,{css:{color: "#fff"}, ease:Power1.easeOut}, 0.1)   
+    .to("i.fas.fa-bars", 0.2,{css:{color: "#000"}, ease:Power1.easeOut}, 0.2)
+    ;
+    
+    
+    var menutlScene3 = new ScrollMagic.Scene({
+        
+        
+        triggerElement: '#highlights'
+        
+    })
+    .setTween(menutl3)
+    .addTo(menuscroller3);
+    
+    
 //     var tlanim;
 //    $('.owl-container').hover(
 //    
@@ -214,7 +237,7 @@ $(document).ready(function(){
     function()
         {
             cardzoom = new TimelineMax();
-            cardzoom.to($(this).find('.card'), 1.6, {scaleX:1.1, scaleY:1.1, ease:Power1.easeInOut}, 0.3)
+            cardzoom.to($(this).find('.card'), 0.3, {scaleX:1.1, scaleY:1.1, ease:Power1.easeInOut}, 0.3)
         },
         function()
         {
